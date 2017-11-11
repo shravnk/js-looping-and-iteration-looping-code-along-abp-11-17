@@ -10,9 +10,9 @@ function tailsNeverFails() {
   let test_case = 1
   while (test_case >= 0.5) {
     test_case = Math.random()
-    i++      
+    i++
   }
 
-const result = "You got " + i + "tails in a row!"
+const result = "You got " + i + " tails in a row!"
 return result
 }

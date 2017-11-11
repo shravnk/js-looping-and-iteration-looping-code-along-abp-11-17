@@ -5,3 +5,14 @@ function printBadges(names) {
   }
   return names
 }
+function tailsNeverFails() {
+  let i = -1
+  let test_case = 1
+  while (test_case >= 0.5) {
+    test_case = Math.random()
+    i++      
+  }
+
+const result = "You got " + i + "tails in a row!"
+return result
+}
